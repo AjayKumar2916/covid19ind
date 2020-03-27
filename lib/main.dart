@@ -446,9 +446,9 @@ class MyDistrictTable extends StatelessWidget{
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
                     new Text(item[index]['confirmed'].toString(), style: new TextStyle(fontSize: 20.0, fontWeight: FontWeight.w700, color: Colors.red)),
-                    new Text(item[index]['active'].toString(), style: new TextStyle(fontSize: 20.0, fontWeight: FontWeight.w700, color: Colors.deepPurpleAccent)),
-                    new Text(item[index]['recovered'].toString(), style: new TextStyle(fontSize: 20.0, fontWeight: FontWeight.w700, color: Colors.green)),
-                    new Text(item[index]['deaths'].toString(), style: new TextStyle(fontSize: 20.0, fontWeight: FontWeight.w700, color: Colors.blueGrey)),
+                    // new Text(item[index]['active'].toString(), style: new TextStyle(fontSize: 20.0, fontWeight: FontWeight.w700, color: Colors.deepPurpleAccent)),
+                    // new Text(item[index]['recovered'].toString(), style: new TextStyle(fontSize: 20.0, fontWeight: FontWeight.w700, color: Colors.green)),
+                    // new Text(item[index]['deaths'].toString(), style: new TextStyle(fontSize: 20.0, fontWeight: FontWeight.w700, color: Colors.blueGrey)),
                   ],
                 ),
               ),
